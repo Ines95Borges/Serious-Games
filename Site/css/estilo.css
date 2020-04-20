@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(143, 143, 143);
+    font-size: 3vh;
+}
+
+header{
+    display: inline;
+    float: left;
+}
+
+nav img{
+    margin-left: 5.5vw;
+}
+
+.vertical-menu {
+    display: inline-block;
+    float: left;
+    margin: 3vh;
+    width: 16vw; /* Set a width if you like */
+    box-shadow: 15px 15px 15px 15px aqua;
+    border-radius: 3vh;
+    background-image: radial-gradient(rgb(163, 162, 162), rgb(92, 92, 92), rgb(49, 49, 49));
+}
+
+.vertical-menu a {
+background-color: rgb(150, 149, 149); /* Grey background color */
+color: rgb(255, 0, 0); /* Black text color */
+display: block; /* Make the links appear below each other */
+padding: 12px; /* Add some padding */
+text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+background-color: rgb(253, 115, 115); /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+background-color: rgb(48, 48, 48); /* Add a green color to the "active/current" link */
+color: rgb(0, 255, 255);
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+    margin-top: 3vh;
+}
+
+ul li{
+    margin-top: 4vh;
+}
+
+article{
+    padding: 3vh;
+    float: none;
+}
+
+p a, ul a{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+
+p a:hover, ul a:hover{
+    text-decoration: none;
+    color: red;
+    font-weight: lighter;
+}
