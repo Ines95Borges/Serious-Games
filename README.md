@@ -1,5 +1,5 @@
 # Serious-Games
- Information about Serious Games
+ Information about Serious Games.
 
  Este conteúdo é providenciado pela plataforma de ensino Coursera.
  Todos as informações foram tiradas de lá.
